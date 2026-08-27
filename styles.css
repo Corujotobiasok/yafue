@@ -230,10 +230,17 @@ input:focus-visible {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  width: 52px;
-  height: 52px;
+  width: auto;
+  height: 100px;
   margin: 0;
 }
+
+@media (max-width: 560px) {
+  .nav-logo {
+    height: 72px;
+  }
+}
+
 .nav-logo-img {
   display: block;
   width: 100%;
@@ -914,11 +921,7 @@ input:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    90deg,
-    var(--black-2) -5%,
-    transparent 22%
-  );
+  background: linear-gradient(90deg, var(--black-2) -5%, transparent 22%);
   pointer-events: none;
 }
 
@@ -1419,7 +1422,9 @@ input:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.6s ease, visibility 0.6s ease;
+  transition:
+    opacity 0.6s ease,
+    visibility 0.6s ease;
 }
 .preloader.is-hidden {
   opacity: 0;

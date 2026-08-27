@@ -243,6 +243,25 @@ input:focus-visible {
   border-radius: 50%;
   border: 2px solid var(--black-2);
 }
+
+@media (max-width: 480px) {
+  .nav {
+    padding: 8px 14px;
+  }
+
+  .nav-logo {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+  }
+
+  .nav-logo-img,
+  .nav-logo img {
+    width: 52px;
+    height: 52px;
+  }
+}
+
 .nav-links {
   display: flex;
   gap: 32px;

@@ -237,7 +237,7 @@ input:focus-visible {
 
 @media (max-width: 560px) {
   .nav-logo {
-    height: 72px;
+    height: 22px;
     width: auto;
   }
 }

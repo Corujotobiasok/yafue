@@ -226,19 +226,21 @@ input:focus-visible {
   font-size: 26px;
   letter-spacing: 0.02em;
   color: var(--cream);
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 98px;
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
   margin: 0;
-  width: auto;
 }
-.nav-logo img {
-  height: 100%;
+.nav-logo-img {
+  display: block;
   width: 100%;
-  border-radius: 100%;
-  border: 3px solid var(--black-2);
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--black-2);
 }
 .nav-links {
   display: flex;

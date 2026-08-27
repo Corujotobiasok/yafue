@@ -246,19 +246,19 @@ input:focus-visible {
 
 @media (max-width: 480px) {
   .nav {
-    padding: 8px 14px;
+    padding: 8px 18px;
   }
 
   .nav-logo {
-    width: 52px;
-    height: 52px;
-    flex-basis: 52px;
+    width: 72px;
+    height: 72px;
+    flex-basis: 72px;
   }
 
   .nav-logo-img,
   .nav-logo img {
-    width: 52px;
-    height: 52px;
+    width: 72px;
+    height: 72px;
   }
 }
 

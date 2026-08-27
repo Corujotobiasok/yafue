@@ -235,17 +235,6 @@ input:focus-visible {
   margin: 0;
 }
 
-@media (max-width: 560px) {
-  .nav-logo {
-    height: 22px;
-    width: auto;
-  }
-  .nav-logo-img {
-    width: 58px;
-    height: 58px;
-    object-fit: contain;
-  }
-}
 .nav-logo-img {
   display: block;
   width: 100%;
